@@ -1,0 +1,25 @@
+.statistics {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: gainsboro;
+  margin: auto;
+  width: 720px;
+  padding: 50px;
+}
+.title {
+  color: black;
+}
+.statList {
+  list-style: none;
+  color: black;
+}
+.item {
+  color: black;
+}
+.label {
+  color: black;
+}
+.percentage {
+  color: black;
+}
