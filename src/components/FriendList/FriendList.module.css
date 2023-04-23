@@ -1,15 +1,38 @@
 .friendList {
-  color: sienna;
+  background-color: cornsilk;
+  width: 300px;
+  margin: 0 auto;
+  padding: 15px;
 }
 .item {
-  color: sienna;
+  display: flex;
+  align-items: center;
+  box-shadow: 4px 4px 2px 1px rgba(0, 0, 255, 0.2);
+  margin: 5px;
+  background-color: aliceblue;
 }
 .status {
-  color: sienna;
+  position: relative;
+  top: 0px;
+  left: 4px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+.isOnline {
+  composes: status;
+  background-color: rgb(97, 240, 97);
+}
+.isOffline {
+  composes: status;
+  background-color: rgb(247, 78, 27);
 }
 .avatar {
-  color: sienna;
+  border: 1px solid antiquewhite;
+  background-color: antiquewhite;
+  margin: 10px;
 }
-.name {
-  color: sienna;
+.textName {
+  color: rgb(5, 5, 39);
 }

@@ -1,0 +1,24 @@
+.transactionHistory {
+  text-align: center;
+  margin: auto;
+  width: 720px;
+  padding: 20px;
+}
+.title {
+  background-color: antiquewhite;
+  color: rgb(5, 5, 39);
+}
+.textTitle {
+  padding: 5px;
+}
+.value {
+  background-color: aliceblue;
+  color: grey;
+}
+.couples {
+  background-color: rgb(192, 205, 218);
+  color: grey;
+}
+.textValue {
+  padding: 5px;
+}

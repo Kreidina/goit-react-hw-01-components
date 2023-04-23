@@ -28,9 +28,14 @@ export const Profile = ({ avatar, userName, tag, location, stats }) => {
   );
 };
 
-Profile.prototype = {
+Profile.propTypes = {
   avatar: PropTypes.string.isRequired,
   userName: PropTypes.string.isRequired,
   tag: PropTypes.string.isRequired,
   location: PropTypes.string.isRequired,
+  stats: PropTypes.shape({
+    followers: PropTypes.number.isRequired,
+    views: PropTypes.number.isRequired,
+    likes: PropTypes.number.isRequired,
+  }).isRequired,
 };

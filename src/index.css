@@ -36,3 +36,9 @@ img {
   max-width: 100%;
   height: auto;
 }
+.generalContainer {
+  background-color: gainsboro;
+  margin: auto;
+  width: 720px;
+  padding: 50px;
+}
